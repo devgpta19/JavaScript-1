@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+#main {
+    min-width: none;
+    min-height: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 7vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#card {
+    width: 90%;
+    background: linear-gradient(35deg, #fff6f6, #819cff, #fff6f6);
+    color: #fff;
+    max-width: 40vw;
+    border-radius: 20px;
+    padding: 4vw 3vw;
+    text-align: center;
+}
+
+#search {
+    margin-top: -8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search input {
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 1vw 2vw;
+    height: 7vh;
+    border-radius: 30px;
+    flex: 1;
+    margin: 2vh;
+    margin-top: 3vw;
+    font-size: 1vw;
+}
+
+#search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 3vw;
+    margin-top: 2vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+#search img {
+    width: 1vw;
+}
+
+#weather-icon {
+    width: 11vw;
+    margin-top: 1vw;
+}
+
+#temperature {
+    display: flex;
+    margin: 1vw;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#weather #temperature h1 {
+    margin: 1vw;
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+#weather h2 {
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: -3vh;
+}
+
+#details {
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+    padding: 0 4.5vh;
+}
+
+#col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#col img {
+    width: 3vw;
+}
+
+#humidity,
+#wind {
+    font-size: 1.7vw;
+    margin-top: -0.5vw;
+    margin-left: 0.5vw;
+}
+
+#col p {
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+#weather {
+    display: none;
+}
+
+/* #error {
+    margin-top: 2vw;
+    font-size: 3vw;
+    display: none;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-color: #222;
+    -webkit-text-stroke-width: 1px;
+}
+
+#error p {
+    color: #222;
+    -webkit-text-stroke-color: #ff0000;
+    -webkit-text-stroke-width: 0.3px;
+} */
