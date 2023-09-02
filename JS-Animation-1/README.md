@@ -1,4 +1,4 @@
-# JS-1
+# JavaScript-1
 Weather Application Using JavaScript 
 
 It gives us the current temperature in °C and along with gives us the humidity and wind speed,
